@@ -1,0 +1,34 @@
+.MainSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 249px;
+    padding-left: 249px;
+    padding-bottom: 140px;
+    gap: 88px;
+
+}
+
+.Service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Service img {
+    width: 106px;
+    height: 106px;
+}
+
+
+.Service h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.Service p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}

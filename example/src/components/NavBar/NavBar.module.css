@@ -1,0 +1,122 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.UpperBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 135px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+.MainTxt {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    flex: 1;
+}
+
+.shopLink {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    gap: 5px;
+}
+
+
+.LowerBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 135px 16px 135px;
+    border-bottom: 3px solid #ddd;
+    flex-wrap: wrap;
+
+}
+
+.LowerBar h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+
+.NavLinks {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.NavLinks li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.NavLinks li a:hover {
+    color: #b90000;
+}
+
+.SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 243px;
+    height: 30px;
+    position: relative;
+}
+
+.searchBox {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Icons ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: #000;
+
+}
+
+
+
+/* ----------- Small devices (320px–600px) ----------- */
+@media (min-width: 320px) and (max-width: 600px) {}
+
+/* ----------- Medium devices (601px–900px) ----------- */
+@media (min-width: 601px) and (max-width: 900px) {}
+
+/* ----------- Large devices (901px–1200px) ----------- */
+@media (min-width: 901px) and (max-width: 1200px) {}

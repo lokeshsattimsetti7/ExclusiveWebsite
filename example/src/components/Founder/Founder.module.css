@@ -1,0 +1,33 @@
+.MainSection {
+    display: flex;
+    padding: 140px 135px 193px 135px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.Block i {
+    margin-left: 16px;
+    margin-top: -35px;
+}
+
+.Block img {
+    Width: 489px;
+    Height: 569px
+}
+
+.Block h1 {
+    font-family: "Inter",
+        sans-serif;
+    font-size: 36px;
+    margin-top: 5px;
+
+
+}
+
+.Block p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-top: -15px;
+}

@@ -1,0 +1,50 @@
+.MainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 135px 140px 135px;
+    gap: 220px;
+}
+
+
+
+
+.LeftSide li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 55px;
+    list-style: none;
+
+}
+
+.Arrow i {
+    margin-left: 71px;
+}
+
+.RightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.RightSide .shopLink {
+    position: absolute;
+    top: 350px;
+    left: 90px;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    gap: 4px;
+
+
+}
+
+.RightSide img {
+    width: 1179px;
+    height: 455px;
+}
