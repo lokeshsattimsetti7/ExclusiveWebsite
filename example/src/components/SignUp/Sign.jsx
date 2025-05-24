@@ -31,16 +31,17 @@ const SignUp = () => {
             <input type="password" id="password" required />
             <label htmlFor="password">Password</label>
           </div>
-
+        </form>
+        <div className={styles.TwoButton}>
           <button type="submit" className={styles.TypeOne}>
             Create Account
           </button>
-        </form>
 
-        <button className={styles.TypeTwo}>
-          <img src={G} alt="Google logo" className={styles.G} />
-          Sign up with Google
-        </button>
+          <button className={styles.TypeTwo}>
+            <img src={G} alt="Google logo" className={styles.G} />
+            Sign up with Google
+          </button>
+        </div>
 
         <div className={styles.LastLine}>
           <p>Already have an account?</p>

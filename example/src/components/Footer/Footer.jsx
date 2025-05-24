@@ -29,20 +29,22 @@ const Footer = () => {
         <p>exclusive@gmail.com,</p>
         <p> +88015-88888-9999</p>
       </div>
-      <div className={styles.SectionThree}>
-        <h1>Account</h1>
-        <p>My Account</p>
-        <p>Login / Register</p>
-        <p>Cart</p>
-        <p>Wishlist</p>
-        <p>Shop</p>
-      </div>
-      <div className={styles.SectionFourth}>
-        <h1>Quick Link</h1>
-        <p>Privacy Policy</p>
-        <p>Terms Of Use</p>
-        <p>FAQ</p>
-        <p>Contact</p>
+      <div className={styles.MiddleSection}>
+        <div className={styles.SectionThree}>
+          <h1>Account</h1>
+          <p>My Account</p>
+          <p>Login / Register</p>
+          <p>Cart</p>
+          <p>Wishlist</p>
+          <p>Shop</p>
+        </div>
+        <div className={styles.SectionFourth}>
+          <h1>Quick Link</h1>
+          <p>Privacy Policy</p>
+          <p>Terms Of Use</p>
+          <p>FAQ</p>
+          <p>Contact</p>
+        </div>
       </div>
       <div className={styles.SectionFifth}>
         <h1>Download App</h1>

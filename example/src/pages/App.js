@@ -8,7 +8,6 @@ import Category from '../components/Categories/Category';
 import BestProducts from '../components/BestProducts/BestProducts';
 import MainBannerTwo from '../components/MainBannerTwo/MainBannerTwo';
 import Explore from '../components/Explore/Explore';
-import NewArrival from '../components/NewArrival/NewArrival';
 import Service from '../components/Services/Service';
 import Story from '../pages/AboutPage';
 import LoginPage from '../pages/LoginPage';
@@ -52,7 +51,6 @@ function App() {
               <BestProducts />
               <MainBannerTwo />
               <Explore />
-              <NewArrival />
               <Service />
 
 

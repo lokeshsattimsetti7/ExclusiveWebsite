@@ -67,6 +67,14 @@
     color: #333;
 }
 
+
+.TwoButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .TypeOne {
     padding: 20px 240px;
     font-family: "Poppins", sans-serif;
@@ -136,27 +144,77 @@
     text-decoration: underline;
 }
 
-/* Responsive layout */
-/* @media (max-width: 768px) {
-    .SignUp {
-        flex-direction: column;
-        padding: 20px;
-        gap: 40px;
+
+@media (min-width: 320px)and (max-width: 600px) {
+    .MainSection {
+        padding: 10px 10px 10px 10px;
+        gap: 9px;
     }
 
-    .RightSide,
-    .LeftSide {
-        width: 100%;
+    .LeftSide img {
+        width: 350px;
+        height: 150px;
     }
 
-    .TypeOne,
+
+
+    .Txt h1 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .Txt p {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .inputGroup {
+        margin-bottom: 15px;
+    }
+
+
+    .TypeOne {
+        padding: 20px 140px;
+        font-size: 6px;
+
+    }
+
     .TypeTwo {
-        width: 100%;
-        padding: 16px 0;
-        text-align: center;
+        padding: 20px 123px 16px 123px;
+        font-size: 8px;
+
     }
 
     .G {
-        left: 12px;
+
+        left: 92px;
+
     }
-} */
+
+
+
+}
+
+@media (min-width: 601px)and (max-width: 900px) {
+    .MainSection {
+        padding: 10px 55px 10px 55px;
+        gap: 9px;
+    }
+
+    .LeftSide img {
+        width: 550px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 901px)and (max-width: 1300px) {
+    .MainSection {
+        padding: 40px 35px 10px 35px;
+        gap: 29px;
+    }
+
+    .LeftSide img {
+        width: 800px;
+        height: 350px;
+    }
+}

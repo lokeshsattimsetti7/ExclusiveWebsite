@@ -8,11 +8,11 @@ const HeroBanner = () => {
     <div className={styles.MainSection}>
       <div className={styles.LeftSide}>
         <li className={styles.Arrow}>
-          Woman’s Fashion
+          Woman’s
           <i className="fas fa-arrow-right"></i>
         </li>
         <li className={styles.Arrow}>
-          Men’s Fashion
+          Men’s
           <i className="fas fa-arrow-right"></i>
         </li>
         <li>Electronics</li>

@@ -119,14 +119,14 @@ const Product = () => {
             <i className="fa-solid fa-star" />
             <i className="fa-solid fa-star" />
             <p>(150 Reviews)</p>
-            <p1 style={{ marginLeft: "1rem" }}>In Stock</p1>
+            <p1 style={{ marginLeft: "1px" }}>In Stock</p1>
           </div>
 
           <h2>$550.00</h2>
           <p>
-            PlayStation 5 Controller Skin High quality vinyl with air channel
-            adhesive for easy bubble free install & mess free removal Pressure
-            sensitive.
+            PlayStation 5 Controller Skin High quality vinyl with air <br></br>
+            channel adhesive for easy bubble free install & mess <br></br> free
+            removal Pressure sensitive.
           </p>
           <hr />
 

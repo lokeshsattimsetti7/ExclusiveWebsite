@@ -60,3 +60,100 @@
     font-size: 25px;
     margin-top: 6px;
 }
+
+
+
+@media(min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+
+    .Block {
+        width: 157px;
+        height: 114px;
+        border-radius: 4px;
+    }
+
+    .Block i {
+        border-radius: 55px;
+        padding: 5px;
+    }
+
+    .Block i:hover {
+        font-size: 27px;
+        border-radius: 65px;
+        padding: 20px;
+    }
+
+    .Block i {
+        font-size: 17px;
+    }
+
+    .Block p1 {
+        font-size: 6px;
+        margin-top: 5px;
+    }
+
+    .Block p {
+        font-size: 5px;
+        margin-top: 6px;
+    }
+
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+
+        padding-left: 55px;
+        padding-right: 55px;
+        gap: 10px;
+
+    }
+
+    .Block {
+        width: 157px;
+        height: 180px;
+    }
+
+    .Block i {
+        border-radius: 45px;
+        padding: 15px;
+
+    }
+
+    .Block i {
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .Block i:hover {
+        font-size: 50px;
+        border-radius: 45px;
+        padding: 20px;
+    }
+
+
+    .Block p1 {
+        font-size: 20px;
+    }
+
+    .Block p {
+        font-size: 9px;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 20px;
+    }
+
+    .Block p {
+        font-size: 15px;
+    }
+
+
+}

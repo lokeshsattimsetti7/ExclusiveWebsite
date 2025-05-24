@@ -71,3 +71,33 @@
 .SubmitButton:hover {
     background-color: #b90000;
 }
+
+@media (min-width:320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 80px 10px 140px 10px;
+    }
+
+    .SectionOne li a {
+        font-size: 9px;
+    }
+
+
+    .MainSection p {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width:601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 80px 55px 140px 55px;
+
+    }
+}
+
+@media (min-width:901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 80px 35px 140px 35px;
+
+    }
+}

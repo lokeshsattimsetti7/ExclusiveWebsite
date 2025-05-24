@@ -1,9 +1,10 @@
 .MainSection {
     display: flex;
+    flex-direction: column;
     padding-top: 82px;
     padding-bottom: 42px;
     padding-left: 135px;
-    gap: 75px;
+
 
 
 }
@@ -30,7 +31,11 @@
 }
 
 
+.BottomSection {
+    display: flex;
+    gap: 75px;
 
+}
 
 
 
@@ -68,4 +73,77 @@
     width: 932px;
     height: 806px;
 
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding-left: 10px;
+        padding-top: 32px;
+        padding-bottom: 12px;
+    }
+
+    .LinksSection li a {
+        font-size: 6px;
+    }
+
+    .BottomSection {
+        gap: 5px;
+    }
+
+    .LeftSide h1 {
+        font-size: 20px;
+    }
+
+    .LeftSide p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .RightSide img {
+        width: 160px;
+        height: 156px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding-top: 42px;
+        padding-bottom: 22px;
+        padding-left: 55px;
+
+    }
+
+
+    .LeftSide h1 {
+        font-size: 14px;
+
+    }
+
+    .LeftSide p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+
+
+    .RightSide img {
+        width: 300px;
+        height: 206px;
+
+    }
+
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding-left: 15px;
+    }
+
+    .RightSide img {
+        width: 432px;
+        height: 440px;
+
+    }
 }

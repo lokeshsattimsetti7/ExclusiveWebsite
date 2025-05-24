@@ -100,3 +100,158 @@
 .Block p {
     font-family: "Poppins", sans-serif;
 }
+
+
+
+
+
+@media (min-width: 320px)and (max-width: 600px) {
+
+    .MainSection {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .FirstRow {
+        width: 5px;
+        height: 10px;
+        margin-bottom: 4px;
+        border-radius: 2px;
+    }
+
+    .FirstRow p {
+        font-size: 4px;
+        margin-left: 10px;
+    }
+
+    .DoubleArrow {
+        gap: 10px;
+    }
+
+    .ArrowGap {
+        padding: 3px;
+        border-radius: 60px;
+    }
+
+    .CategoriesSection {
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .Block {
+        width: 50px;
+        height: 50px;
+        gap: 2px;
+    }
+
+    .Block img {
+        width: 44px;
+        height: 24px;
+    }
+
+    .Block p {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 10px 55px 10px 55px;
+    }
+
+    .FirstRow {
+        width: 10px;
+        height: 20px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 7px;
+        margin-left: 20px;
+    }
+
+    .DoubleArrow {
+        right: -10px;
+        top: -10;
+        gap: 8px;
+    }
+
+    .ArrowGap {
+        padding: 5px;
+        border-radius: 60px;
+
+    }
+
+    .CategoriesSection {
+        gap: 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .Block {
+        width: 90px;
+        height: 90px;
+        gap: 5px;
+    }
+
+    .Block img {
+        width: 64px;
+        height: 44px;
+    }
+
+    .Block p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 10px 35px 10px 35px;
+    }
+
+    .FirstRow {
+        width: 20px;
+        height: 40px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 13px;
+        margin-left: 30px;
+    }
+
+    .DoubleArrow {
+        right: -10px;
+        top: -10;
+        gap: 8px;
+    }
+
+    .ArrowGap {
+        padding: 5px;
+        border-radius: 60px;
+
+    }
+
+    .CategoriesSection {
+        gap: 25px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .Block {
+        width: 140px;
+        height: 140px;
+        gap: 15px;
+    }
+
+    .Block img {
+        width: 84px;
+        height: 64px;
+    }
+
+    .Block p {
+        font-size: 15px;
+    }
+}
